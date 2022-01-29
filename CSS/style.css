@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url(../image/photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+
+.container{
+    width: 600px;
+    margin: 2% auto;
+}
+.login-section{
+    background-color:#37e6145e;
+    padding: 15PX;
+}
+.login-section img{
+width: 150px;
+margin: 0 auto;
+display: block;
+padding: 10px;
+
+}
+.login-section h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+text-align: center;
+color: rgba(207, 13, 29, 0.945);
+}
+.form-control{
+width: 97%;
+height: 30px;
+padding-left: 6px;
+margin: 5px;
+
+}
+.submit-button{
+padding: 8px 20px;
+background-color: rgb(108, 85, 211);
+text-transform: Uppercase;
+margin: 0 auto;
+display: block;
+box-shadow: 2px 3px 4px 4px palegreen;
+transition: 0.5s;
+}
+
+.link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link a{
+    color: red;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* a{
+    color: rgba(255, 81, 0, 0.911);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgba(80, 20, 220, 0.753);
+    cursor: pointer;
+}
+.submit-button:hover{
+background-color: rgba(220, 27, 20, 0.952);
+cursor: pointer;
+
+} */

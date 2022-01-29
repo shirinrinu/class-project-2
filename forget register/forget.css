@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../image/image2.jpeg);
+    background-size: cover;
+}
+.container{
+    height: 650px;
+    width: 400px;
+    border: 2px solid rgb(50, 42, 165);
+    margin: 25px auto;
+    border-radius: 15px;
+}
+.container h1{
+    text-align: center;
+    color: rgb(24, 21, 226);
+    margin-bottom: 35px;
+}
+.input input{
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    /* border-color: lightcoral; */
+    border: none;
+
+}
+.input label{
+    font-size: 18px;
+    color: #333;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.submit_btn input{
+    width: 50%;
+    margin: 20px 94px;
+    padding: 10px;
+    border: none;
+    background-color: lightcoral;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
